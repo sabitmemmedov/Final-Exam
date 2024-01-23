@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Exem</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header id="home-header">
+      <div class="nav-container">
+        <nav>
+          <div class="nav-logo">
+            <img src="./assets/img/logo (6).png" alt="logo" />
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Latest</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="./wishlist.html">Wish List</a></li>
+              <li><a href="./add.html">Add Page</a></li>
+            </ul>
+          </div>
+          <div class="nav-icons">
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-regular fa-user"></i></a>
+              </li>
+              <li>
+                <a href="./basket.html"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div id="navMobile" class="nav-mobile">
+            <ul>
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Latest</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="./wishlist.html">Wish List</a></li>
+              <li><a href="./add.html">Add Page</a></li>
+              <li class="mobile-nav-icons">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                  </li>
+                  <li>
+                    <a href="./basket.html"
+                      ><i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </li>
+                </ul>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="nav-bars-icon">
+            <button id="barsBtn"><i class="fa-solid fa-bars"></i></button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="sec-hero">
+        <div class="container-xl">
+          <div class="sec-hero-content">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1>
+                  Select Your New <br />
+                  Perfect Style
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                  hic labore natus veniam quidem in sit itaque nisi adipisci.
+                </p>
+                <button>SHOP NOW</button>
+              </div>
+              <div class="col-lg-4 sec-one-img">
+                <img style="width: 100%;" src="./assets/img/watch (1).png" alt="watch" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sec-arrival">
+        <div class="container-xl">
+          <div class="sec-arrival-content">
+            <div class="sec-arrival-head-text">
+              <h2>New Arrivals</h2>
+            </div>
+            <div class="carts">
+              <div class="cart">
+                <div class="imgDiv">
+                  <img src="./assets/img/new_product1.png" alt="product" />
+                </div>
+                <div class="textDiv">
+                  <h4>Thermo Ball Etip Gloves</h4>
+                  <p>$ 45,743</p>
+                </div>
+              </div>
+              <div class="cart">
+                <div class="imgDiv">
+                  <img src="./assets/img/new_product2.png" alt="product" />
+                </div>
+                <div class="textDiv">
+                  <h4>Thermo Ball Etip Gloves</h4>
+                  <p>$ 45,743</p>
+                </div>
+              </div>
+              <div class="cart">
+                <div class="imgDiv">
+                  <img src="./assets/img/new_product3.png" alt="product" />
+                </div>
+                <div class="textDiv">
+                  <h4>Thermo Ball Etip Gloves</h4>
+                  <p>$ 45,743</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sec-products">
+        <div class="container-xl">
+          <div class="sec-products-content">
+            <div class="sec-products-head-text">
+              <h2>Popular Items</h2>
+            </div>
+            <div id="list" class="productsDiv">
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sec-watchs">
+        <div class="container-xl">
+          <div class="sec-watchs-content">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12">
+                <h2>Watch of Choice</h2>
+                <p >
+                  Enim ad minim veniam, quis nostrud exercitation ullamco <br>
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute <br>
+                  irure dolor in reprehenderit in voluptate velit esse.
+                </p>
+                <button>SHOW WATCHES</button>
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <img style="width: 100%; padding: 10px 0;" src="./assets/img/choce_watch1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sec-watchs-two">
+        <div class="container-xl">
+          <div class="sec-watchs-content">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12">
+                <img style="width: 100%; padding: 10px ;" src="./assets/img/choce_watch2 (1).png" alt="" />
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <h2>Watch of Choice</h2>
+                <p>
+                  Enim ad minim veniam, quis nostrud exercitation ullamco <br>
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute <br>
+                  irure dolor in reprehenderit in voluptate velit esse.
+                </p>
+                <button>SHOW WATCHES</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-xl">
+        <div class="footer-content">
+          <div class="footer-top">
+            <ul>
+              <li class="head-li">
+                <img src="./assets/img/logo (6).png" alt="" />
+              </li>
+              <li>
+                Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf
+                sed do eiusmod tem.
+              </li>
+            </ul>
+            <ul>
+              <li class="head-li">Quick Links</li>
+              <li>About</li>
+              <li>Offers & Discounts</li>
+              <li>Get Coupon</li>
+              <li>Contact Us</li>
+            </ul>
+            <ul>
+              <li class="head-li">New Products</li>
+              <li>Woman Cloth</li>
+              <li>Fashion Accessories</li>
+              <li>Man Accessories</li>
+              <li>Rubber made Toys</li>
+            </ul>
+            <ul>
+              <li class="head-li">Support</li>
+              <li>Frequently Asked Questions</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+              <li>Report a Payment Issue</li>
+            </ul>
+          </div>
+          <div class="footer-bottom">
+            <div>
+              <p>
+                Copyright ©2024 All rights reserved | This template is made with
+                <i style="color: red" class="fa-solid fa-heart"></i> by
+                <span style="color: red">Colorlib</span>
+              </p>
+            </div>
+            <div class="iconsDiv">
+                <ul>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-behance"></i></li>
+                    <li><i class="fa-solid fa-globe"></i></li>
+
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"
+      integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/js/home.js"></script>
+  </body>
+</html>
